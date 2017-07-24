@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: "Orator STD", sans-serif;
+}
+
+h2 {
+    font-family: "futura", sans-serif;
+    font-size: 0.8em;
+}
+
+.section {
+    text-align: center;
+    background-color: gray;
+}
+
+img {
+    max-height: 100%;
+    align-content: center;
+}
+
+video {
+    max-height: 100%;
+    align-content: center;
+}
+
+#page1 {
+    background-color: white;
+}
+/*-------BORDER---------*/
+
+.border {
+    position: fixed;
+    background-color: gainsboro;
+    opacity: 0.4;
+    z-index: 50;
+}
+
+#top {
+    top: 30px;
+    left: 20px;
+    right: 20px;
+    height: 1px;
+}
+
+
+#left {
+    top: 31px;
+    left: 20px;
+    bottom: 31px;
+    width: 1px;
+}
+
+#bottom {
+    right: 20px;
+    left: 20px;
+    bottom: 30px;
+    height: 1px;
+}
+
+#right {
+    top: 31px;
+    right: 20px;
+    bottom: 31px;
+    width: 1px;
+}
+
+
+/* unvisited link */
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: black;
+    text-decoration: none;
+}
