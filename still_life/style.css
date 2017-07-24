@@ -1,0 +1,15 @@
+#pineapplebase {
+    position: fixed;
+    background: #455326;
+    top: 300px;
+    left: 220px;
+    right: 20px;
+    height:220px;
+    width: 160px;
+    border-radius: 42%;
+}
+
+#melon {
+    position: fixed;
+    background: #f4f2ba;
+}
