@@ -1,0 +1,84 @@
+/*---- H -----*/
+.H {
+    position: relative;
+    top: 200px;
+    left: 200px;
+    height: 200px;
+    width: 125px;
+  
+  
+}
+
+#left {
+    position: absolute;
+    height: 200px;
+    width: 2px;
+    left: 0;
+    top: 0;
+    background: black;
+}
+
+#left-top {
+    position: absolute;
+    height: 93px;
+    width: 2px;
+    left: 12px;
+    top: 0px;
+    background: black;
+}
+
+#top {
+    position: absolute;
+    height: 2px;
+    width: 90px;
+    left:12px;
+    top: 93px;
+    background: black;
+}
+
+#bottom {
+    position: absolute;
+    height: 2px;
+    width: 90px;
+    right: 12px;
+    bottom: 91px;
+    background: black;
+}
+
+#right-bottom {
+    position: absolute;
+    height: 93px;
+    width: 2px;
+    right: 12px;
+    bottom: 0px;
+    background: black;
+}
+
+#right {
+    position: absolute;
+    height: 200px;
+    width: 2px;
+    right: 0;
+    top: 0;
+    background: black;
+}
+
+#left-dot {
+    position: absolute;
+    bottom: 90px;
+    left: 12px;
+    height: 4px;
+    width: 4px;
+    background: black;
+    border-radius: 100%;
+}
+
+#right-dot {
+    position: absolute;
+    top: 93px;
+    right: 12px;
+    height: 4px;
+    width: 4px;
+    background: black;
+    border-radius: 100%;
+}

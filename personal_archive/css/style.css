@@ -13,6 +13,12 @@ h2 {
     color: white;
 }
 
+p {
+    font-family: "futura", sans-serif;
+    font-size: 0.6em;
+    color: white;
+}
+
 .section {
     text-align: center;
     background-color: gray;
