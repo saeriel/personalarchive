@@ -19,13 +19,15 @@ h2 {
 }
 
 img {
-    max-height: 100%;
+    max-width: 100%;
+    opacity: 0.8;
     align-content: center;
 }
 
 video {
     max-height: 100%;
     align-content: center;
+    opacity: 0.8;
 }
 
 /*------page backgrounds------*/
