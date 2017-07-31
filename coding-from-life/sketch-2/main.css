@@ -1,13 +1,575 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.frame {
+    position: relative;
+}
+
 body {
   background-color: black;
 }
 
 .frame {
-  width: 1000px;
+  width: 1100px;
   height: 600px;
-  background: white;
+  background: #d1a456;
   margin: 30px auto;
   position: relative;
 }
 
 /* Your CSS goes here */
+
+/*----pineapple----*/
+
+.fruit-1 {
+    position: absolute;
+    top: 140px;
+    left: 150px;
+    width: 220px;
+    height: 440px;
+   /* border: 1px black solid;*/
+}
+#pineapplebase {
+    position: absolute;
+    background: #455326;
+    bottom: 0px;
+    left: 15%;
+    right: 15%;
+    height:50%;
+    width: 70%;
+    border-radius: 42%;
+    z-index: 1;
+}
+
+#pineappletop {
+    width: 20px;
+    top: 30%;
+    left: 40%;
+    position: absolute;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 100px solid #667C30;
+}
+
+#pineappletop1 {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 10%;
+    top: 40%; 
+    border-radius: 100px;
+    border-bottom: 20px solid #667C30;
+    transform: rotate(140deg);
+}
+
+#pineappletop2 {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 10%;
+    top: 40%; 
+    border-radius: 100px;
+    border-bottom: 20px solid #667C30;
+    transform: rotate(-140deg);
+}
+
+#pineappletop3 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 5%;
+    top: 30%; 
+    border-radius: 100px;
+    border-bottom: 20px solid #667C30;
+    transform: rotate(-140deg);
+}
+
+#pineappletop4 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 5%;
+    top: 33%; 
+    border-radius: 100px;
+    border-bottom: 20px solid #667C30;
+    transform: rotate(150deg);
+}
+
+#pineappletop5 {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    left: -5% ;
+    top: 20%; 
+    border-radius: 100px;
+    border-bottom: 40px solid #667C30;
+    transform: rotate(-110deg);
+}
+
+#pineappletop6 {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    right: -10% ;
+    top: 16%; 
+    border-radius: 100px;
+    border-bottom: 40px solid #667C09;
+    transform: rotate(100deg);
+}
+
+/*----melon-----*/
+
+.fruit-2 {
+    position: absolute;
+    left: 340px;
+    top: 450px;
+    width: 140px;
+    height: 140px;
+  /*  border: 1px black solid; */
+}
+
+#melon {
+    position: absolute;
+    top: 0%;
+    background: -webkit-linear-gradient(top, #f4f2ba 0%,#aaad6d 43%,#aaad6d 100%);
+    height: 140px;
+    width: 140px;
+    border-radius: 100% 100% 90% 90%;
+    z-index: 2;
+}
+
+/*-----mango----*/
+
+.fruit-3 {
+    position: absolute;
+    /* border: 1px black solid;*/
+    height: 100px;
+    width: 100px;
+    top: 440px;
+    left: 590px;
+    z-index: 2;
+}
+
+#mango {
+    position: absolute;
+   width: 63px;
+   height: 80px;
+    left: 15%;
+    -webkit-transform: rotate(-80deg);
+   background-color: red;
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+    background: linear-gradient(to top, #e8171a 0%,#f48013 100%);
+    
+}
+
+
+
+/*------glass---*/
+
+.flower {
+    position: absolute;
+    /*border: 1px black solid;*/
+    height: 600px;
+    width: 260px;
+    top: 30px;
+    left: 330px;
+    z-index: 1;
+	transform: scale(0.85)
+}
+
+#glasstop {
+	position: absolute;
+    top: 50%;
+    left: 25%;
+    border-bottom: 100px solid gray;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+    opacity: 0.3;
+	height: 0;
+	width: 100px;
+}
+
+#glassbottom {
+	position: absolute;
+    top: 66.7%;
+    left: 25%;
+    border-top: 90px solid gray;
+	border-left: 35px solid transparent;
+	border-right: 35px solid transparent;
+    opacity: 0.3;
+	width: 100px;
+}
+
+#glassstem1 {
+   	position: absolute;
+    top: 81.7%;
+    left: 39%;
+    border-top: 10px solid gray;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+    opacity: 0.3;
+	width: 30px; 
+}
+
+#glassstem2 {
+    position: absolute;
+    top: 83.4%;
+    left: 41%;
+    height: 35px;
+    width: 14px;
+    background: gray;
+    opacity: 0.3;   
+}
+
+#glassbase {
+	position: absolute;
+    top: 89.3%;
+    left: 35%;
+    border-bottom: 15px solid gray;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+    opacity: 0.3;
+	height: 0;
+	width: 50px;    
+}
+
+#stem1 {
+    position: absolute;
+    width: 4px;
+    height: 170px;
+    background-color: seagreen;
+    transform: rotate(8deg);
+    top: 48%;
+    left: 47%;
+}
+
+#stem2 {
+    position: absolute;
+    width: 4px;
+    height: 130px;
+    background-color: seagreen;
+    transform: rotate(14deg);
+    top: 28%;
+    left: 57%;
+}
+
+#stem3 {
+    position: absolute;
+    width: 4px;
+    height: 60px;
+    background-color: seagreen;
+    transform: rotate(-49deg);
+    top: 40%;
+    left: 42%;
+}
+
+#stem4 {
+    position: absolute;
+    width: 4px;
+    height: 40px;
+    background-color: seagreen;
+    transform: rotate(40deg);
+    top: 43%;
+    left: 56%;
+}
+
+.flower1 {
+    position: absolute;
+    /*border: black 1px solid;*/
+    height: 100px;
+    width: 30px;
+    top: 25%;
+    left: 20%;
+    transform: rotate(-10deg);
+}
+.flower1 #flower{
+    position: absolute;
+    border-top: 90px solid beige;
+	border-left: 12px solid transparent;
+	border-right: 15px solid transparent;
+	height: 0;
+	width: 40px;
+    top: 20%;
+    left: 23%;
+}
+
+.flower1 #star-six {
+	width: 0;
+	height: 0;
+    top: 0px;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 50px solid beige;
+	position: absolute;
+    left: -50%;
+    transform: rotate(10deg);
+}
+.flower1 #star-six:after {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 50px solid beige;
+	position: absolute;
+	content: "";
+	top: 10px;
+	left: -50px;
+}
+
+.flower2 {
+    position: absolute;
+    /*border: black 1px solid;*/
+    height: 100px;
+    width: 30px;
+    top: 33%;
+    left: 7%;
+    transform: rotate(-70deg);
+}
+.flower2 #flower{
+    position: absolute;
+    border-top: 90px solid beige;
+	border-left: 12px solid transparent;
+	border-right: 15px solid transparent;
+	height: 0;
+	width: 40px;
+    top: 20%;
+    left: 23%;
+}
+
+.flower2 #star-six {
+	width: 0;
+	height: 0;
+    top: 0px;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 50px solid beige;
+	position: absolute;
+    left: -50%;
+    transform: rotate(10deg);
+}
+.flower2 #star-six:after {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 50px solid beige;
+	position: absolute;
+	content: "";
+	top: 10px;
+	left: -50px;
+}
+
+
+.flower3 {
+    position: absolute;
+    /*border: black 1px solid;*/
+    height: 100px;
+    width: 30px;
+    top: 32%;
+    left: 70%;
+    transform: rotate(70deg) scale(0.8);
+    z-index: 1;
+}
+.flower3 #flower{
+    position: absolute;
+    border-top: 90px solid beige;
+	border-left: 12px solid transparent;
+	border-right: 15px solid transparent;
+	height: 0;
+	width: 40px;
+    top: 20%;
+    left: 23%;
+}
+
+.flower3 #star-six {
+	width: 0;
+	height: 0;
+    top: 0px;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 50px solid beige;
+	position: absolute;
+    left: -50%;
+    transform: rotate(10deg);
+}
+.flower3 #star-six:after {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 50px solid beige;
+	position: absolute;
+	content: "";
+	top: 10px;
+	left: -50px;
+}
+
+
+.flower4 {
+    position: absolute;
+    /*border: black 1px solid;*/
+    height: 100px;
+    width: 30px;
+    top: 10%;
+    left: 52%;
+    transform: rotate(0deg) scale(1.1);
+    z-index: 1;
+}
+.flower4 #flower{
+    position: absolute;
+    border-top: 90px solid beige;
+	border-left: 12px solid transparent;
+	border-right: 15px solid transparent;
+	height: 0;
+	width: 40px;
+    top: 20%;
+    left: 23%;
+}
+
+.flower4 #star-six {
+	width: 0;
+	height: 0;
+    top: 0px;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 50px solid beige;
+	position: absolute;
+    left: -50%;
+    transform: rotate(10deg);
+}
+.flower4 #star-six:after {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 50px solid beige;
+	position: absolute;
+	content: "";
+	top: 10px;
+	left: -50px;
+}
+
+
+
+/*-----books----*/
+
+.book-one {
+    position: absolute;
+   /* border: black 1px solid;*/
+    height: 50px;
+    width: 300px;
+    top: 530px;
+    left: 520px;
+    z-index: 1;
+}
+
+#book1front {
+    position: absolute;
+    height: 20px;
+    width: 270px;
+    bottom: 0%;
+    background: white;
+    border: 1px gray solid;
+	z-index: 1;
+}
+
+#book1side {
+    position:absolute;
+	top: -3%;
+	left: -6%;
+    width: 19px;
+	height: 24px;
+	-webkit-transform: skewY(70deg) rotate(90deg);
+	background: #eaeaea;
+    border: gray 1px solid;
+}
+
+
+.book-two {
+    position: absolute;
+   /* border: black 1px solid;*/
+    height: 50px;
+    width: 300px;
+    top: 510px;
+    left: 520px;
+    z-index: 1;
+}
+
+#book2front {
+    position: absolute;
+    height: 15px;
+    width: 263px;
+    background: gray;
+    bottom: 0%;
+    left: 2%;
+}
+
+
+#book2side {
+    position:absolute;
+    bottom: 47%;
+    left: -5%;
+    width: 17px;
+	height: 25px;
+	-webkit-transform: skewY(70deg) rotate(90deg);
+	background: #eaeaea;
+    border: gray 1px solid;
+}
+
+
+#booktop2 {
+    position: absolute;
+    bottom: 31%;
+    left: -2% ;
+    width: 263px;
+    height: 65px;
+    background-color: lightgray;
+    -webkit-transform: skewX(20deg);
+}
+
+.book-three {
+    position: absolute;
+    height: 50px;
+    width: 250px;
+    top: 495px;
+    left: 571px;
+   /* border: black 1px solid; */
+    z-index: 1;
+}
+
+#book3front {
+    position: absolute;
+    height: 15px;
+    width: 220px;
+    background-color: darkred;
+    bottom: 0%
+}
+
+
+#book3side {
+     position:absolute;
+    bottom: 47%;
+    left: -7.6%;
+    width: 17px;
+	height: 19px;
+	-webkit-transform: skewY(70deg) rotate(90deg);
+	background-color: darkgray;
+    border: gray 1px solid;
+}
+
+
+#booktop3 {
+    position: absolute;
+    bottom: 31%;
+    left: -3.5%;
+    width: 220px;
+    height: 50px;
+    background-color: #953131;
+    -webkit-transform: skewX(20deg);
+}
+
+
+
