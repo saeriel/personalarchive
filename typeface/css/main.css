@@ -506,89 +506,87 @@ p {
 --------------G-------------
 ----------------------------*/
 
-#Gleft {
-	
+#Glefttop {
+position: absolute;
+	height: 60px;
+	width: 120px;
+	top: 0px;
+	border-top: 2px white solid;
+	border-right: 2px white solid;
+	border-left: 2px white solid;
+	border-radius: 160px 160px 0 0;
 }
 
-#Gleftcurve { 
+#Gbottom {
+	position: absolute;
+	height: 60px;
+	width: 120px;
+	bottom: 0px;
+	border-bottom: 2px white solid;
+	border-right: 2px white solid;
+	border-left: 2px white solid;
+	border-radius: 0 0 160px 160px;
+}
+
+#Gleft {
+	position: absolute;
+	height: 85px;
+	width: 2px;
+	left:0;
+	top: 59px;
+	background: white;
 }
 
 #Gright {
-	
+	position: absolute;
+	height: 30px;
+	width: 2px;
+	right: 14px;
+	bottom: 50px;
+	background: white;
 }
 
 #Gmid {
+	position: absolute;
+	height: 2px;
+	width: 60px;
+	bottom: 80px;
+	right: 14px;
+	background: white;
+}
+
+#Gmidline {
+	position: absolute;
+	height: 2px;
+	width: 70px;
+	background: white;
+	right: 5;
+	top: 105px;
+}
+
+#Gleftline {
+	position: absolute;
+	height: 70px;
+	width: 2px;
+	top: 80px;
+	left: 13px;
+	background: white;
 	
 }
 
 #Gleftdot {
-	
-}
-
-#Grightdot{
-	
-}
-
-/*--------------------------
---------------J-------------
-----------------------------*/
-
-/*--------------------------
---------------K-------------
-----------------------------*/
-
-/*--------------------------
---------------Q-------------
-----------------------------*/
-
-
-
-/*----------------------------
-------------- P --------------
------------------------------*/
-#Pleft {
 	position: absolute;
-	height: 200px;
-	width: 2px;
-	background: white;
-	top: 0;
-	left:0;
-}
-
-#Pleftline{
-	position: absolute;
-    height: 97px;
-    width: 2px;
-    left: 12px;
-    bottom: 30px;
-    background: white;
-}
-
-#Pright {
-	position: absolute;
-	height: 100px;
-	width: 110px;
-	top: 0px;
-	left: 12px;
-	border-top: 2px white solid;
-	border-right: 2px white solid;
-	border-bottom: 2px white solid;
-	border-radius: 0 160px 160px 0;
-}
-
-#Pleftdot {
-    position: absolute;
-    bottom: 10px;
-    left: 12px;
+    bottom: 60px;
+    right: 30px;
     height: 4px;
     width: 4px;
     background: white;
-    border-radius: 100%;	
+    border-radius: 100%;
 }
 
-#Prightdot {
+#Grightdot{
 	position: absolute;
-    top: 50px;
+    top: 61px;
     left: 12px;
     height: 4px;
     width: 4px;
@@ -674,6 +672,233 @@ p {
     border-radius: 100%;
 }
 
+
+/*-----------------------
+----------I---------------
+----------------------*/
+
+
+#Itop {
+	position: absolute;
+	height: 2px;
+	width: 125px;
+	background: white;
+	top: 0px;
+	right: 0px;
+}
+
+#Ileft {
+    position: absolute;
+    height: 93px;
+    width: 2px;
+    left: 55px;
+    top: 12px;
+    background: white;
+}
+
+#Itopleft {
+    position: absolute;
+    height: 3px;
+    width: 40px;
+    left:17px;
+    top: 12px;
+    background: white;
+}
+
+#Iright {
+    position: absolute;
+    height: 120px;
+    width: 2px;
+    right: 55px;
+    bottom: 12px;
+    background: white;
+}
+
+#Ibottomright {
+    position: absolute;
+    height: 3px;
+    width: 40px;
+    right:17px;
+    bottom: 12px;
+    background: white;
+}
+
+#Ibottom {
+	position: absolute;
+	height: 2px;
+	width: 125px;
+	background: white;
+	bottom: 0px;
+	right: 0px;
+}
+
+#Irightdot {
+	position: absolute;
+	height: 4px;
+	width: 4px;
+	background-color: white;
+	top: 50px;
+	right: 53px;
+	border-radius: 100%;
+}
+
+#Ileftdot {
+	position: absolute;
+	height: 4px;
+	width: 4px;
+	background-color: white;
+	bottom: 76px;
+	left: 54px;
+	border-radius: 100%;
+}
+
+/*--------------------------
+--------------J-------------
+----------------------------*/
+
+#Jright {
+	position: absolute;
+	width: 2px;
+	height: 144px;
+	background: white;
+	top: 0;
+	right:0;
+}
+
+#Jrightline {
+	position: absolute;
+	width: 2px;
+	height: 100px;
+	background: white;
+	right: 13px;
+	top: 50px;
+}
+
+#Jbottomright {
+	position: absolute;
+	height: 60px;
+	width: 60px;
+	border-bottom: 2px white solid;
+	border-left: 2px white solid;
+	bottom: 0;
+	left: 0px;
+	border-bottom-left-radius: 100%;
+}
+
+
+#Jbottomleft {
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	border-bottom: 2px white solid;
+	border-right: 2px white solid;
+	bottom: 15;
+	right: 0px;
+	border-bottom-right-radius: 100%;
+
+}
+
+#Jtop {
+	position: absolute;
+	height: 2px;
+	width: 80px;
+	right: 0px;
+	background: white;
+}
+
+#Jrightdot {
+    position: absolute;
+    bottom: 14px;
+    right: 55px;
+    height: 4px;
+    width: 4px;
+    background: white;
+    border-radius: 100%;
+}
+
+#Jleftdot {
+	position: absolute;
+    bottom: 65px;
+    left: 12px;
+    height: 4px;
+    width: 4px;
+    background: white;
+    border-radius: 100%;
+}
+
+/*--------------------------
+--------------K-------------
+----------------------------*/
+#Kdiagleft {
+	position: absolute;
+	height: 190px;
+	width: 2px;
+	background: white;
+	transform: rotate(40deg);
+	left: 62px;
+	top: -20px;
+	
+}
+
+#Kdiagright {
+	position: absolute;
+	height: 100px;
+	width: 2px;
+	background: white;
+	transform: rotate(40deg);
+	right: 80px;
+	top: 31px;
+}
+
+#Kleftout {
+	position: absolute;
+    height: 200px;
+    width: 2px;
+    left: 0;
+    top: 0;
+    background: white;
+}
+
+#Kleftin {
+	position: absolute;
+    height: 50px;
+    width: 2px;
+    left: 12px;
+    top: 70px;
+    background: white;
+}
+
+#Kdiagdown {
+	position: absolute;
+	height: 120px;
+	width: 2px;
+	transform: rotate(-40deg);
+	background: white;
+	bottom: -10;
+	right: 40;
+}
+
+#Krightdot {
+	position: absolute;
+	height: 4px;
+	width: 4px;
+	background-color: white;
+	top: 50px;
+	left: 11px;
+	border-radius: 100%;
+}
+
+#Kleftdot {
+	position: absolute;
+	height: 4px;
+	width: 4px;
+	background-color: white;
+	bottom: 40px;
+	left: 11px;
+	border-radius: 100%;
+}
+
+
 /*--------------------------
 -------------L---------------
 ----------------------------*/
@@ -734,6 +959,98 @@ p {
     border-radius: 100%;
 }
 
+/*----------------------------
+------------- M --------------
+-----------------------------*/
+
+
+#Mleft {
+	position: absolute;
+    height: 200px;
+    width: 2px;
+    left: 0;
+    top: 0;
+    background: white;
+}
+
+#Mleftline {
+	position: absolute;
+    height: 130px;
+    width: 2px;
+    left: 12px;
+    bottom: 0;
+    background: white;
+}
+
+#mleftdiag {
+	position: absolute;
+	height: 90px;
+	width: 2px;
+	background: white;
+	transform: rotate(-40deg);
+	left: 30px;
+	top: -10px;
+	
+}
+
+#mrightdiag {
+	position: absolute;
+	height: 90px;
+	width: 2px;
+	background: white;
+	transform: rotate(40deg);
+	right: 30px;
+	top: -10px;
+}
+
+#mright {
+	position: absolute;
+    height: 200px;
+    width: 2px;
+    right: 0;
+    top: 0;
+    background: white;
+}
+
+#mrightdiagline {
+	position: absolute;
+	height: 70px;
+	width: 2px;
+	background: white;
+	transform: rotate(40deg);
+	right: 35px;
+	top: 26px;
+}
+
+#mrightline {
+	position: absolute;
+	background: white;
+	height: 120px;
+	width: 2px;
+	background: white;
+	right: 12px;
+	top: 43px;
+}
+
+#mleftdot {
+	position: absolute;
+	background: white;
+	height: 4px;
+	width: 4px;
+	border-radius: 100%;
+	top: 55px;
+	left: 12px;
+}
+
+#mrightdot {
+	position: absolute;
+	background: white;
+	height: 4px;
+	width: 4px;
+	border-radius: 100%;
+	bottom: 24px;
+	right: 11px;
+}
 
 
 /*---------------------------
@@ -886,6 +1203,220 @@ p {
 }
 
 
+/*----------------------------
+------------- P --------------
+-----------------------------*/
+#Pleft {
+	position: absolute;
+	height: 200px;
+	width: 2px;
+	background: white;
+	top: 0;
+	left:0;
+}
+
+#Pleftline{
+	position: absolute;
+    height: 97px;
+    width: 2px;
+    left: 12px;
+    bottom: 30px;
+    background: white;
+}
+
+#Pright {
+	position: absolute;
+	height: 100px;
+	width: 110px;
+	top: 0px;
+	left: 12px;
+	border-top: 2px white solid;
+	border-right: 2px white solid;
+	border-bottom: 2px white solid;
+	border-radius: 0 160px 160px 0;
+}
+
+#Pleftdot {
+    position: absolute;
+    bottom: 10px;
+    left: 12px;
+    height: 4px;
+    width: 4px;
+    background: white;
+    border-radius: 100%;	
+}
+
+#Prightdot {
+	position: absolute;
+    top: 50px;
+    left: 12px;
+    height: 4px;
+    width: 4px;
+    background: white;
+    border-radius: 100%;
+}
+
+
+
+/*--------------------------
+--------------Q-------------
+----------------------------*/
+
+#Qlefttop {
+	position: absolute;
+	height: 100px;
+	width: 70px;
+	right: 0px;
+	border-top: 2px white solid;
+	border-right: 2px white solid;
+	border-top-right-radius: 100%;
+
+}
+
+#Qleftbottom {
+	position: absolute;
+	height: 100px;
+	width: 60px;
+	right: 0px;
+	border-bottom: 2px white solid;
+	border-right: 2px white solid;
+	bottom: 2px;
+	border-bottom-right-radius: 100%;
+}
+
+#Qleftdot {
+	position: absolute;
+	height: 4px;
+	width: 4px;
+	background-color: white;
+	bottom: 12px;
+	left: 60px;
+	border-radius: 100%;
+}
+
+#Qrighttop {
+	position: absolute;
+	height: 90px;
+	width: 50px;
+	border-top: 2px white solid;
+	border-left: 2px white solid;
+	top: 10px;
+	left: 2px;
+	border-top-left-radius: 100%;
+}
+
+#Qrightbottom {
+	position: absolute;
+	height: 90px;
+	width: 50px;
+	border-bottom: 2px white solid;
+	border-left: 2px white solid;
+	bottom: 12px;
+	left: 2px;
+	border-bottom-left-radius: 100%;
+}
+
+#Qrightdot {
+	position: absolute;
+	height: 4px;
+	width: 4px;
+	background-color: white;
+	top: 9px;
+	left: 60px;
+	border-radius: 100%;
+}
+
+#Qdiag {
+	position: absolute;
+	height: 60px;
+	width: 2px;
+	background: white;
+	transform: rotate(-40deg);
+	bottom: 5px;
+	right: 20px;
+	
+}
+
+/*---------------------
+----------R--------------
+-----------------------*/
+
+#Rleftout {
+    position: absolute;
+    height: 200px;
+    width: 2px;
+    left: 0;
+    top: 0;
+    background: white;
+    overflow: hidden;
+}
+
+#Rleft {
+    position: absolute;
+    height: 180px;
+    width: 2px;
+    left: 12;
+    top: 20;
+    background: white;
+    overflow: hidden;
+}
+
+#Rcurve {
+	position: absolute;
+	height: 100px;
+	width: 110px;
+	top: 0px;
+	left: 18px;
+	border-top: 2px white solid;
+	border-right: 2px white solid;
+	border-bottom: 2px white solid;
+	border-radius: 0 160px 160px 0;
+}
+
+#Rcurveinner {
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	border-top: 2px white solid;
+	border-right: 2px white solid;
+	top: 10px;
+	right: 10px;
+	border-top-right-radius: 100%;
+
+}
+
+
+#Rdiag {
+	position: absolute;
+	height: 100px;
+	width: 2px;
+	background: white;
+	transform: rotate(-17deg);
+	bottom: 0px; 
+	right: 12px;
+	
+}
+
+#Rrightdot {
+	position: absolute;
+	height: 4px;
+	width: 4px;
+	background-color: white;
+	top: 9px;
+	right: 65px;
+	border-radius: 100%;
+}
+
+#Rleftdot {
+	position: absolute;
+	height: 4px;
+	width: 4px;
+	background-color: white;
+	top: 70px;
+	right: 12px;
+	border-radius: 100%;	
+}
+
 
 /*--------------------------
 -------------S--------------
@@ -1023,85 +1554,6 @@ p {
 	border-radius: 100%;
 }
 
-/*---------------------
-----------R--------------
------------------------*/
-
-#Rleftout {
-    position: absolute;
-    height: 200px;
-    width: 2px;
-    left: 0;
-    top: 0;
-    background: white;
-    overflow: hidden;
-}
-
-#Rleft {
-    position: absolute;
-    height: 180px;
-    width: 2px;
-    left: 12;
-    top: 20;
-    background: white;
-    overflow: hidden;
-}
-
-#Rcurve {
-	position: absolute;
-	height: 100px;
-	width: 110px;
-	top: 0px;
-	left: 18px;
-	border-top: 2px white solid;
-	border-right: 2px white solid;
-	border-bottom: 2px white solid;
-	border-radius: 0 160px 160px 0;
-}
-
-#Rcurveinner {
-	position: absolute;
-	height: 40px;
-	width: 40px;
-	border-top: 2px white solid;
-	border-right: 2px white solid;
-	top: 10px;
-	right: 10px;
-	border-top-right-radius: 100%;
-
-}
-
-
-#Rdiag {
-	position: absolute;
-	height: 100px;
-	width: 2px;
-	background: white;
-	transform: rotate(-17deg);
-	bottom: 0px; 
-	right: 12px;
-	
-}
-
-#Rrightdot {
-	position: absolute;
-	height: 4px;
-	width: 4px;
-	background-color: white;
-	top: 9px;
-	right: 65px;
-	border-radius: 100%;
-}
-
-#Rleftdot {
-	position: absolute;
-	height: 4px;
-	width: 4px;
-	background-color: white;
-	top: 70px;
-	right: 12px;
-	border-radius: 100%;	
-}
 
 
 /*--------------------------
@@ -1182,84 +1634,6 @@ p {
 
 
 
-/*-----------------------
-----------I---------------
-----------------------*/
-
-
-#Itop {
-	position: absolute;
-	height: 2px;
-	width: 125px;
-	background: white;
-	top: 0px;
-	right: 0px;
-}
-
-#Ileft {
-    position: absolute;
-    height: 93px;
-    width: 2px;
-    left: 55px;
-    top: 12px;
-    background: white;
-}
-
-#Itopleft {
-    position: absolute;
-    height: 3px;
-    width: 40px;
-    left:17px;
-    top: 12px;
-    background: white;
-}
-
-#Iright {
-    position: absolute;
-    height: 120px;
-    width: 2px;
-    right: 55px;
-    bottom: 12px;
-    background: white;
-}
-
-#Ibottomright {
-    position: absolute;
-    height: 3px;
-    width: 40px;
-    right:17px;
-    bottom: 12px;
-    background: white;
-}
-
-#Ibottom {
-	position: absolute;
-	height: 2px;
-	width: 125px;
-	background: white;
-	bottom: 0px;
-	right: 0px;
-}
-
-#Irightdot {
-	position: absolute;
-	height: 4px;
-	width: 4px;
-	background-color: white;
-	top: 50px;
-	right: 53px;
-	border-radius: 100%;
-}
-
-#Ileftdot {
-	position: absolute;
-	height: 4px;
-	width: 4px;
-	background-color: white;
-	bottom: 76px;
-	left: 54px;
-	border-radius: 100%;
-}
 
 /*----------------------------
 ------------- V --------------
@@ -1326,12 +1700,12 @@ p {
 	right: 39px;
 }
 
-/*----------------------------
-------------- M --------------
------------------------------*/
 
+/*--------------------------
+--------------W-------------
+----------------------------*/
 
-#Mleft {
+#Wleft {
 	position: absolute;
     height: 200px;
     width: 2px;
@@ -1340,37 +1714,37 @@ p {
     background: white;
 }
 
-#Mleftline {
+#Wleftline {
 	position: absolute;
     height: 130px;
     width: 2px;
     left: 12px;
-    bottom: 0;
+    top: 0;
     background: white;
 }
 
-#mleftdiag {
+#Wleftdiag {
 	position: absolute;
 	height: 90px;
 	width: 2px;
 	background: white;
 	transform: rotate(-40deg);
-	left: 30px;
-	top: -10px;
+	right: 30px;
+	bottom: -10px;
 	
 }
 
-#mrightdiag {
+#Wrightdiag {
 	position: absolute;
 	height: 90px;
 	width: 2px;
 	background: white;
 	transform: rotate(40deg);
-	right: 30px;
-	top: -10px;
+	left: 30px;
+	bottom: -10px;
 }
 
-#mright {
+#Wright {
 	position: absolute;
     height: 200px;
     width: 2px;
@@ -1379,17 +1753,17 @@ p {
     background: white;
 }
 
-#mrightdiagline {
+#Wrightdiagline {
 	position: absolute;
 	height: 70px;
 	width: 2px;
 	background: white;
 	transform: rotate(40deg);
-	right: 35px;
-	top: 26px;
+	left: 35px;
+	bottom: 26px;
 }
 
-#mrightline {
+#Wrightline {
 	position: absolute;
 	background: white;
 	height: 120px;
@@ -1399,17 +1773,17 @@ p {
 	top: 43px;
 }
 
-#mleftdot {
+#Wleftdot {
 	position: absolute;
 	background: white;
 	height: 4px;
 	width: 4px;
 	border-radius: 100%;
-	top: 55px;
-	left: 12px;
+	top: 25px;
+	right: 12px;
 }
 
-#mrightdot {
+#Wrightdot {
 	position: absolute;
 	background: white;
 	height: 4px;
@@ -1419,10 +1793,6 @@ p {
 	right: 11px;
 }
 
-
-/*--------------------------
---------------W-------------
-----------------------------*/
 
 /*--------------------------
 --------------X-------------
@@ -1567,7 +1937,72 @@ p {
 /*--------------------------
 --------------Z-------------
 ----------------------------*/
+#Ztop {
+	position: absolute;
+	height: 2px;
+	width: 125px;
+	top: 0;
+	left: 0;
+	background: white;
+}
 
+#Zbottom {
+	position: absolute;
+	height: 2px;
+	width: 100px;
+	bottom: 0;
+	left: 0;
+	background: white;
+}
+
+#Zdiag {
+	position: absolute;
+	top: -13px;
+	right: 70px;
+	height: 205px;
+	width: 2px;
+	transform: rotate(30deg);
+	background: white;
+}
+
+#Zdiagline {
+	position: absolute;
+	bottom: 4px;
+	left: 56px;
+	height: 160px;
+	width: 2px;
+	transform: rotate(30deg);
+	background: white;
+}
+
+#Zbottomline {
+	position: absolute;
+	bottom: 13px;
+	right: 0px;
+	width: 110px;
+	height: 2px;
+	background: white;
+}
+
+#Zleftdot {
+	position: absolute;
+	background: white;
+	height: 4px;
+	width: 4px;
+	border-radius: 100%;
+	top: 24px;
+	right: 11px;
+}
+
+#Zrightdot {
+	position: absolute;
+	background: white;
+	height: 4px;
+	width: 4px;
+	border-radius: 100%;
+	bottom: 0px;
+	right: 2px;
+}
 
 /*-------numbers------*/
 
