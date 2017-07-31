@@ -14,19 +14,17 @@ p {
 	color: white;
 	font-weight: 100;
 	text-align: center;
+	margin: 0 15%;
 	
 	
 }
 
-#thought {
+.thought {
 	top: 20%;
 	margin: 0 15%;
 	text-align: center;
 }
 
-#text {
-
-}
 
 /*--------------------------
 --------pages---------
@@ -43,6 +41,27 @@ p {
 	#constructtext {
 		display:none;
 	}
+
+#page2 {
+	background: gray;
+}
+	#relativetext {
+		display: none;
+	}
+
+#page3 {
+	background: #2c326b;
+}
+	#absurdtext {
+		display: none;
+	}
+#typeface {
+	background: black;
+	text-align: center;
+	
+}
+
+
 /*---------------------------
 ----------animation----------
 ----------------------------*/
@@ -77,6 +96,451 @@ p {
 		margin: -29px;
 	}
 }
+
+/*--------------------------
+------------A----------------
+----------------------------*/
+
+#Aleft {
+	position: absolute;
+	bottom: 0px;
+	left: 20px;
+	height: 110px;
+	width: 2px;
+	transform: rotate(17deg);
+	background: white;
+}
+
+#Aright {
+	position: absolute;
+	top: -4px;
+	right: 30px;
+	height: 210px;
+	width: 2px;
+	transform: rotate(-17deg);
+	background: white;
+}
+	
+#Amid {
+	position: absolute;
+	width: 54px;
+	height: 2px;
+	background: white;
+	left: 42px;
+	top: 105px;
+}
+
+#Aline {
+	position: absolute;
+	bottom: 32px;
+	right: 34px;
+	height: 50px;
+	width: 2px;
+	transform: rotate(-17deg);
+	background: white;
+	
+}
+
+#Aleftdot {
+	position: absolute;
+	background: white;
+	height: 4px;
+	width: 4px;
+	border-radius: 100%;
+	top: 70px;
+	left: 40px;
+}
+
+#Arightdot {
+	position: absolute;
+	background: white;
+	height: 4px;
+	width: 4px;
+	border-radius: 100%;
+	bottom: 7px;
+	right: 20px;
+	
+}
+
+/*--------------------------
+------------B----------------
+----------------------------*/
+#Bleft {
+	position: absolute;
+	height: 200px;
+	width: 2px;
+	background: white;
+	top: 0;
+	left:0;
+}
+
+#Btopcurve {
+	position: absolute;
+	height: 96px;
+	width: 100px;
+	top: 0px;
+	right: 0px;
+	border-top: 2px white solid;
+	border-right: 2px white solid;
+	border-bottom: 2px white solid;
+	border-radius: 0 160px 160px 0;
+}
+
+#Bbottomcurve {
+	position: absolute;
+	height: 97px;
+	width: 90px;
+	bottom: 0px;
+	right: 0px;
+	border-top: 2px white solid;
+	border-right: 2px white solid;
+	border-bottom: 2px white solid;
+	border-radius: 0 160px 160px 0;
+}
+
+#Bline {
+	position: absolute;
+    height: 107px;
+    width: 2px;
+    left: 12px;
+    bottom: 25px;
+    background: white;
+}
+#Bleftdot {
+	position: absolute;
+	background: white;
+	height: 4px;
+	width: 4px;
+	border-radius: 100%;
+	bottom: 0px;
+	left: 11px;
+}
+
+#Brightdot {
+	position: absolute;
+	background: white;
+	height: 4px;
+	width: 4px;
+	border-radius: 100%;
+	top: 45px;
+	left: 11px;
+}
+
+/*----------------------------
+------------C-----------------
+----------------------------*/
+
+
+#Clefttop {
+	position: absolute;
+	height: 100px;
+	width: 90px;
+	border-top: 2px white solid;
+	border-left: 2px white solid;
+	border-top-left-radius: 100%;
+}
+
+#Cleftbottom {
+	position: absolute;
+	height: 100px;
+	width: 90px;
+	border-bottom: 2px white solid;
+	border-left: 2px white solid;
+	bottom: 2px;
+	border-bottom-left-radius: 100%;
+}
+
+#Crighttop {
+	position: absolute;
+	height: 80px;
+	width: 80px;
+	border-top: 2px white solid;
+	border-left: 2px white solid;
+	top: 00px;
+	left: 30px;
+	border-top-left-radius: 100%;
+	transform: rotate(17deg);
+}
+
+#Crightbottom {
+	position: absolute;
+	height: 80px;
+	width: 70px;
+	border-bottom: 2px white solid;
+	border-left: 2px white solid;
+	bottom: 4px;
+	left: 30px;
+	border-bottom-left-radius: 100%;
+	transform: rotate(-17deg)
+}
+
+#Crightdot {
+	position: absolute;
+	height: 4px;
+	width: 4px;
+	background-color: white;
+	bottom: 2px;
+	right: 20px;
+	border-radius: 100%;
+}
+
+#Cleftdot {
+	position: absolute;
+	height: 4px;
+	width: 4px;
+	background-color: white;
+	top: 0px;
+	right: 15px;
+	border-radius: 100%;
+}
+
+/*--------------------------
+------------D----------------
+----------------------------*/
+#Dleft {
+	position: absolute;
+	height: 140px;
+	width: 2px;
+	background: white;
+	top: 0;
+	left:0;
+}
+
+#Dline {
+	position: absolute;
+    height: 107px;
+    width: 2px;
+    left: 12px;
+    bottom: 18px;
+    background: white;
+}
+
+#Dtop {
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	right: 0px;
+	border-top: 2px white solid;
+	border-right: 2px white solid;
+	border-top-right-radius: 100%;
+
+}
+
+#Dbottom {
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	border-bottom: 2px white solid;
+	border-right: 2px white solid;
+	bottom: 2px;
+	right: 0px;
+	border-bottom-right-radius: 100%;
+}
+
+#Dleftdot {
+	position: absolute;
+	background: white;
+	height: 4px;
+	width: 4px;
+	border-radius: 100%;
+	bottom: 0px;
+	left: 0px;
+}
+
+#Drightdot {
+	position: absolute;
+	background: white;
+	height: 4px;
+	width: 4px;
+	border-radius: 100%;
+	top: 45px;
+	left: 11px;
+}
+
+/*--------------------------
+------------E----------------
+----------------------------*/
+
+#Eleft {
+	position: absolute;
+	height: 200px;
+	width: 2px;
+	background: white;
+	top: 0;
+	left:0;
+}
+
+#Etop {
+	position: absolute;
+	height: 2px;
+	width: 100px;
+	right: 0;
+	background: white;
+}
+
+#Emid {
+	position: absolute;
+	height: 2px;
+	width: 110px;
+	right: 0;
+	top: 90px;
+	background: white;
+}
+
+#Ebottom {
+	position: absolute;
+	height: 2px;
+	width: 125px;
+	right: 0;
+	bottom: 0;
+	background: white;
+}
+
+#Ebottomline {
+	position: absolute;
+	height: 2px;
+	width: 80px;
+	right: 0;
+	bottom: 12px;
+	background: white;
+}
+
+#Eline {
+	position: absolute;
+	background: white;
+	height: 100px;
+	width: 2px;
+	left: 12px;
+	top: 40px;
+}
+
+#Eleftdot {
+	position: absolute;
+    bottom: 11px;
+    left: 12px;
+    height: 4px;
+    width: 4px;
+    background: white;
+    border-radius: 100%;
+}
+
+#Erightdot {
+	position: absolute;
+    top: 19px;
+    left: 12px;
+    height: 4px;
+    width: 4px;
+    background: white;
+    border-radius: 100%;
+}
+
+/*--------------------------
+------------F----------------
+----------------------------*/
+
+#Fleft {
+	position: absolute;
+	height: 200px;
+	width: 2px;
+	background: white;
+	top: 0;
+	left:0;
+}
+
+#Ftop {
+	position: absolute;
+	height: 2px;
+	width: 100px;
+	right: 0;
+	background: white;
+}
+
+#Fmid {
+	position: absolute;
+	height: 2px;
+	width: 110px;
+	right: 0;
+	top: 90px;
+	background: white;
+}
+
+#Fbottomline {
+	position: absolute;
+	height: 2px;
+	width: 90px;
+	left: 12;
+	bottom: 92px;
+	background: white;
+}
+
+#Fline {
+	position: absolute;
+	background: white;
+	height: 93px;
+	width: 2px;
+	left: 12px;
+	bottom: 0px;
+}
+
+#Fleftdot {
+	position: absolute;
+    bottom: 91px;
+    right: 12px;
+    height: 4px;
+    width: 4px;
+    background: white;
+    border-radius: 100%;
+}
+
+#Frightdot {
+	position: absolute;
+    top: 70px;
+    left: 12px;
+    height: 4px;
+    width: 4px;
+    background: white;
+    border-radius: 100%;
+}
+
+/*--------------------------
+--------------G-------------
+----------------------------*/
+
+#Gleft {
+	
+}
+
+#Gleftcurve { 
+}
+
+#Gright {
+	
+}
+
+#Gmid {
+	
+}
+
+#Gleftdot {
+	
+}
+
+#Grightdot{
+	
+}
+
+/*--------------------------
+--------------J-------------
+----------------------------*/
+
+/*--------------------------
+--------------K-------------
+----------------------------*/
+
+/*--------------------------
+--------------Q-------------
+----------------------------*/
+
 
 
 /*----------------------------
@@ -270,73 +734,7 @@ p {
     border-radius: 100%;
 }
 
-/*----------------------------
-------------C-----------------
-----------------------------*/
 
-
-#Clefttop {
-	position: absolute;
-	height: 100px;
-	width: 90px;
-	border-top: 2px white solid;
-	border-left: 2px white solid;
-	border-top-left-radius: 100%;
-}
-
-#Cleftbottom {
-	position: absolute;
-	height: 100px;
-	width: 90px;
-	border-bottom: 2px white solid;
-	border-left: 2px white solid;
-	bottom: 2px;
-	border-bottom-left-radius: 100%;
-}
-
-#Crighttop {
-	position: absolute;
-	height: 80px;
-	width: 80px;
-	border-top: 2px white solid;
-	border-left: 2px white solid;
-	top: 00px;
-	left: 30px;
-	border-top-left-radius: 100%;
-	transform: rotate(17deg);
-}
-
-#Crightbottom {
-	position: absolute;
-	height: 80px;
-	width: 70px;
-	border-bottom: 2px white solid;
-	border-left: 2px white solid;
-	bottom: 4px;
-	left: 30px;
-	border-bottom-left-radius: 100%;
-	transform: rotate(-17deg)
-}
-
-#Crightdot {
-	position: absolute;
-	height: 4px;
-	width: 4px;
-	background-color: white;
-	bottom: 2px;
-	right: 20px;
-	border-radius: 100%;
-}
-
-#Cleftdot {
-	position: absolute;
-	height: 4px;
-	width: 4px;
-	background-color: white;
-	top: 0px;
-	right: 15px;
-	border-radius: 100%;
-}
 
 /*---------------------------
 ------------N-----------------
@@ -1021,6 +1419,86 @@ p {
 	right: 11px;
 }
 
+
+/*--------------------------
+--------------W-------------
+----------------------------*/
+
+/*--------------------------
+--------------X-------------
+----------------------------*/
+
+#Xlefttop {
+	position: absolute;
+	height: 225px;
+	width: 2px;
+	background: white;
+	transform: rotate(-30deg);
+	left: 60px;
+	top: -10px;
+}
+
+#Xrighttop {
+	position: absolute;
+	height: 115px;
+	width: 2px;
+	background: white;
+	transform: rotate(30deg);
+	right: 30px;
+	top: -5px;
+}
+
+#Xrightline {
+	position: absolute;
+	height: 100px;
+	width: 2px;
+	background: white;
+	transform: rotate(30deg);
+	right: 26px;
+	top: 26px;
+}
+
+#Xrightbottom {
+	position: absolute;
+	height: 75px;
+	width: 2px;
+	background: white;
+	transform: rotate(30deg);
+	left: 20px;
+	bottom: -5px;
+}
+
+#Xleftline {
+	position: absolute;
+	height: 110px;
+	width: 2px;
+	background: white;
+	transform: rotate(-30deg);
+	right: 65px;
+	bottom: 10px;
+}
+
+#Xleftdot {
+	position: absolute;
+	background: white;
+	height: 4px;
+	width: 4px;
+	border-radius: 100%;
+	top: 64px;
+	left: 18px;
+}
+
+#Xrightdot {
+	position: absolute;
+	background: white;
+	height: 4px;
+	width: 4px;
+	border-radius: 100%;
+	bottom: 0px;
+	right: 29px;
+}
+
+
 /*----------------------------
 ------------Y----------------
 ----------------------------*/
@@ -1084,6 +1562,12 @@ p {
 	bottom: 99px;
 	left: 59px;
 }
+
+
+/*--------------------------
+--------------Z-------------
+----------------------------*/
+
 
 /*-------numbers------*/
 
