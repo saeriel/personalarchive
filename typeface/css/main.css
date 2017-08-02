@@ -1,4 +1,24 @@
 
+.fix{
+	transform: scale(0.8);
+	position: relative;
+	display: inline-block;
+	height: 200px;
+	width: 125px;
+	margin: -8px;
+/*	border: 1px red solid;*/
+}
+
+.home{
+	transform: scale(0.8);
+	position: relative;
+	display: inline-block;
+	height: 200px;
+	width: 125px;
+	margin: -8px;
+/*	border: 1px red solid;*/
+}
+
 .letter {
 	transform: scale(0.8);
 	position: relative;
@@ -6,6 +26,8 @@
 	height: 200px;
 	width: 125px;
 	margin: -8px;
+	visibility: hidden;
+	float: left;
 /*	border: 1px red solid;*/
 }
 
@@ -25,17 +47,140 @@ p {
 	text-align: center;
 }
 
+#clickplz {
+	font-size: 0.8em;
+	position: absolute;
+	display: none;
+	left: 45%;
+}
+
+#clickplzplaceholder {
+	font-size: 0.8em;
+	opacity: 0;
+	position: absolute;
+	display: none;
+	left: 45%;
+}
+
+.a:link, a:visited, a:active {
+	font-family: "orator std", "sans-serif";
+	color: white;
+	font-weight: 100;
+	text-align: center;
+	margin: 0 15%;
+}
+
+/*-----------------------
+-----------grids-----------
+-------------------------*/
+
+#grid_1 {
+	position: fixed;
+	height: 42%;
+	width: 22%;
+	top: 2%;
+/*	border: blue 1px solid;*/
+	display: inline-block;
+	z-index: 1;
+}
+
+#grid_2 {
+	position: fixed;
+	height: 42%;
+	width: 23%;
+	left: 25%;
+	top: 2%;
+	display: inline-block;
+/*	border: blue 1px solid;*/
+	z-index: 1;
+}
+
+#grid_3 {
+	position: fixed;
+	height: 42%;
+	width: 23%;
+	left: 50%;
+	top: 2%;
+	display: inline-block;
+/*	border: blue 1px solid;*/
+	z-index: 1;
+}
+
+#grid_4 {
+	position: fixed;
+	height: 42%;
+	width: 23%;
+	left: 75%;
+	top: 2%;
+	display: inline-block;
+/*	border: blue 1px solid;*/
+	z-index: 1;
+}
+
+#grid_5 {
+	position: fixed;
+	height: 42%;
+	width: 23%;
+	left: 0;
+	bottom:2%;
+	display: inline-block;
+/*	border: blue 1px solid;*/
+	z-index: 1;
+}
+
+#grid_6 {
+	position: fixed;
+	height: 42%;
+	width: 23%;
+	left: 25%;
+	bottom: 2%;
+	display: inline-block;
+/*	border: blue 1px solid;*/
+	z-index: 1;
+}
+
+#grid_7 {
+	position: fixed;
+	height: 42%;
+	width: 23%;
+	left: 50%;
+	bottom:2%;
+	display: inline-block;
+/*	border: blue 1px solid;*/
+	z-index: 1;
+}
+
+#grid_8 {
+	position: fixed;
+	height: 42%;
+	width: 23%;
+	left: 75%;
+	bottom:2%;
+	display: inline-block;
+/*	border: blue 1px solid;*/
+	z-index: 1; 
+}
+
 
 /*--------------------------
 --------pages---------
 --------------------------*/
 #home {
 	background: black; 
+	overflow: hidden;
+	z-index: 2;
 }
 	
+	#typeface {
+	background: black;
+	text-align: center;
+	display: none;
+	
+	}
 
 #page1 {
 	background: red;
+	overflow: hidden;
 }
 
 	#constructtext {
@@ -44,6 +189,7 @@ p {
 
 #page2 {
 	background: gray;
+	overflow: hidden;
 }
 	#relativetext {
 		display: none;
@@ -51,14 +197,21 @@ p {
 
 #page3 {
 	background: #2c326b;
+	overflow: hidden;
 }
 	#absurdtext {
 		display: none;
 	}
-#typeface {
+#page4 {
+	background: #f8c100;
+	overflow: hidden;
+}
+	#existentialtext {
+		display: none;
+	}
+
+#last {
 	background: black;
-	text-align: center;
-	
 }
 
 
@@ -84,14 +237,30 @@ p {
 -------------------------------*/
 
 @media only screen and (min-width:560px) and (max-width: 802px) {
+	.fix {
+		transform: scale(0.6);
+		margin: -20px;
+	}
 	.letter {
+		transform: scale(0.6);
+		margin: -20px;
+	}
+	.home {
 		transform: scale(0.6);
 		margin: -20px;
 	}
 }
 
 @media only screen and (max-width: 560px) {
+	.fix {
+		transform: scale(0.52);
+		margin: -29px;
+	}
 	.letter {
+		transform: scale(0.52);
+		margin: -29px;
+	}
+	.home {
 		transform: scale(0.52);
 		margin: -29px;
 	}
