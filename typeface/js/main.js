@@ -5,7 +5,7 @@ $( document ).ready(function() {
 	
 	$("#home").mousedown(function(){
 		$("#typeface").fadeIn(400);
-		$(".thought").hide();
+		$(".constructivism").hide();
 	});
 	$("#home").mouseup(function(){
 		$(".thought").fadeIn(400);
