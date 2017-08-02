@@ -1,0 +1,371 @@
+* {
+    box-sizing: border-box;
+}
+/*-------backgrounds-------*/
+
+.background{
+    max-width: 100%;
+    max-height: 600%;
+    z-index: -100;
+}
+
+body {
+    background-color: #e4e5cd;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+/*-------text---------*/
+
+
+h2 {
+    font-family: "savoye let";
+    font-size: 1.6em;
+    
+}
+
+p {
+    font-family: "avenir";
+    font-weight: 200;
+    font-size: 0.7em;
+    text-align: justify;  
+    font-stretch: ultra-condensed;
+}
+
+h4 {
+    font-family: "avenir";
+    font-size: 0.8em;
+}
+
+#section4a, #section4b, #section4c, #section4d, #section4e, #section4f, #section4g, #section4h p {
+	text-align: center;
+}
+
+/*-----pages-----------*/
+#page1 {
+    left: 20%;
+    right: 20%;
+    position: absolute;
+    bottom: 4%;
+    max-height: 20%;
+    overflow-y: visible;
+}
+
+
+#text2 {
+    position: absolute;
+    left: 20%;
+    right: 25%;
+    top: 10%;
+}
+
+#text3 {
+    position: absolute;
+    left: 25%;
+    right: 20%;
+    top: 10%;
+	z-index: 100;
+}
+
+#text4 {
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 40%;
+}
+
+#text5 {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    right: 15%;
+}
+
+#text6 {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    right: 15%;
+}
+
+#text7 {
+	position: absolute;
+	top: 5%;
+	left: 10%;
+	right: 10%;
+	
+}
+
+#text8 {
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	right: 10%;
+	
+}
+
+#text9 {
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	right: 10%;
+	
+}
+
+#text10 {
+	position: absolute;
+	top: 90%;
+	left: 10%;
+	right: 10%;
+	
+}
+
+#text11 {
+	position: absolute;
+	top: 67%;
+	left: 10%;
+	right: 10%;
+	
+}
+
+#text12 {
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	right: 10%;
+	
+}
+
+#text13 {
+	position: absolute;
+	top: 70%;
+	left: 10%;
+	right: 10%;
+	
+}
+
+#text14 {
+	position: absolute;
+	top: 40%;
+	left: 10%;
+	right: 10%;
+	
+}
+
+#text15 {
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	right: 10%;
+	
+}
+
+
+
+#enemy {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+}
+
+#friend {
+    position: absolute;
+    top: 70%;
+    left: 60%;
+}
+
+
+/*-----page elements, positioning and stuff-----*/
+#bg {
+    position: relative;
+}
+
+a {
+    position: relative;
+    z-index: 9999;
+    padding: 2em;
+    margin: -2em;
+}
+
+.albert {
+    text-align: left;
+    margin-left: -10%;
+}
+
+.protag {
+    text-align: right;
+    margin-right: -10%;
+}
+
+
+/*
+#section3b, #section3d {
+	background-color: #F6F5E56;
+}
+*/
+
+.arrow {
+	width: 0; 
+  	height: 0; 
+  	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+  	border-top: 20px solid darkgreen;
+	opacity: 0.2;
+	position: fixed;
+	bottom: 5%;
+	right: 5%;
+	z-index: 1;
+
+}
+
+
+
+/*------PARALLAX-------*/
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+#home {
+	height: 100%;
+	overflow: scroll;
+	display: block;
+	position: relative;
+	
+}
+
+#page2 {
+	height: 100%;
+	overflow: scroll;
+	display: block;
+	position: relative;
+}
+
+#section2a, #section2b {
+	width: calc(100% / 2);
+	height: 100%;
+/*	background-color: #F6F5E5;*/
+	float: left;
+	overflow-y: scroll
+	
+}
+
+#section3a, #section3b, #section3c, #section3d {
+	width: calc(100% / 4);
+	height: 100%;
+/*	background-color: #F6F5E5;*/
+	float: left;
+	overflow-y: scroll;
+	
+}
+
+#section4a, #section4b, #section4c, #section4d, #section4e, #section4f, #section4g, #section4h {
+	width: calc(100% / 8);
+	height: 100%;
+	float: left;
+	overflow-y: scroll;
+	position: relative;
+	border-left: white 1px solid;
+
+}
+
+
+.parallax {
+    perspective: 1px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    top:0;
+    
+}
+
+.parallax__group {
+    position: relative;
+    height: 100vh;
+    transform-style: preserve-3d;
+}
+
+.parallax__layer { 
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.parallax__layer--front {
+    z-index: 5;
+    transform: translateZ(-5px) scale(6);
+}
+
+
+.parallax__layer--base {
+    z-index: 4;
+    transform: translateZ(-4px) scale(5);
+}
+
+.parallax__layer--back {
+    z-index: 3;
+  transform: translateZ(-1px) scale(2);
+}
+
+.parallax__layer--deep {
+    z-index: 2;
+    transform: translateZ(-3px) scale(4);
+}
+
+.parallax__layer--bottom {
+    z-index: 1;
+    transform: translateZ(-2px) scale(3);
+}
+
+.parallax__layer--background {
+    z-index: 1;
+    transform: translateZ(-3px) scale(4);
+}
+
+/*-----img------*/
+
+img {
+    min-width: 100%;
+}
+.layer1 {
+    max-width: 100%;
+    z-index: 4;
+    position: relative;
+    top: 5%;
+}
+
+.layer2 {
+    max-width: 100%;
+    position: absolute;
+}
+
+.layer3{
+    max-width: 100%;
+    opacity: 0.8;
+    position: absolute;
+}
+
+.layer4{
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    
+}
+
+.layer5 {
+    max-width: 100%;
+}
+
+#section2b img {
+	-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
+#section4f img {
+	transform: rotate(180deg);
+}
