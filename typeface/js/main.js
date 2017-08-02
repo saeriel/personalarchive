@@ -63,18 +63,18 @@ $( document ).ready(function() {
 
 		$("#grid_1").mouseenter(function(){
 		console.log("hello");
-		$(".N, .S, .L").fadeIn(200).css("visibility", "visible");
+		$(".N, .S, .L").fadeIn(100).css("visibility", "visible");
 		$(".C, .O, .T, .R, .U, .I, .V, .M, .A, .B, .D, .E, .X").fadeIn(0).css("visibility", "hidden");
 	})
 
 	$("#grid_1").mouseleave(function(){
 		console.log("goodbye");
-		$(".N, .S, .L").fadeOut(200);
+		$(".N, .S, .L").fadeOut(100);
 	})
 	
 	$("#grid_2").mouseenter(function(){
 		console.log("hello");
-		$(".T, .M").fadeIn(200).css("visibility", "visible");
+		$(".T, .M").fadeIn(100).css("visibility", "visible");
 		$(".C, .O, N, .R, .U, .I, .V, .S, .A, .B, .D, .E, .X, .L").fadeIn(0).css("visibility", "hidden");
 	})
 
@@ -85,7 +85,7 @@ $( document ).ready(function() {
 	
 	$("#grid_3").mouseenter(function(){
 		console.log("hello");
-		$(".C, .A, .D").fadeIn(200).css("visibility", "visible");
+		$(".C, .A, .D").fadeIn(100).css("visibility", "visible");
 		$(".O, N, .R, .U, .I, .V, .S, .B, .E, .X, .L, .T, .M").fadeIn(0).css("visibility", "hidden");
 	})
 
@@ -96,7 +96,7 @@ $( document ).ready(function() {
 	
 	$("#grid_4").mouseenter(function(){
 		console.log("hello");
-		$(".O, .T, .B, E").fadeIn(200).css("visibility", "visible");
+		$(".O, .T, .B, E").fadeIn(100).css("visibility", "visible");
 		$(".C, .N, .R, .U, .I, .V, .S, .A, .D, .E, .X, .L, .M").fadeIn(0).css("visibility", "hidden");
 	})
 
@@ -107,7 +107,7 @@ $( document ).ready(function() {
 	
 	$("#grid_5").mouseenter(function(){
 		console.log("hello");
-		$(".R, .S").fadeIn(200).css("visibility", "visible");
+		$(".R, .S").fadeIn(100).css("visibility", "visible");
 		$(".C, .O, N, .U, .I, .V, .A, .B, .D, .E, .X, .L, .T, .M").fadeIn(0).css("visibility", "hidden");
 	})
 
@@ -118,7 +118,7 @@ $( document ).ready(function() {
 	
 	$("#grid_6").mouseenter(function(){
 		console.log("hello");
-		$(".U, .N, .M").fadeIn(200).css("visibility", "visible");
+		$(".U, .N, .M").fadeIn(100).css("visibility", "visible");
 		$(".C, .O, .R, .I, .V, .S, .A, .B, .D, .E, .X, .L, .T").fadeIn(0).css("visibility", "hidden");
 	})
 
@@ -129,7 +129,7 @@ $( document ).ready(function() {
 	
 	$("#grid_7").mouseenter(function(){
 		console.log("hello");
-		$(".I, .S, .E").fadeIn(200).css("visibility", "visible");
+		$(".I, .S, .E").fadeIn(100).css("visibility", "visible");
 		$(".C, .O, N, .R, .U, .V, .A, .B, .D, .X, .L, .T, .M").fadeIn(0).css("visibility", "hidden");
 	})
 
@@ -140,7 +140,7 @@ $( document ).ready(function() {
 	
 	$("#grid_8").mouseenter(function(){
 		console.log("hello");
-		$(".V, .X").fadeIn(200).css("visibility", "visible");
+		$(".V, .X").fadeIn(00).css("visibility", "visible");
 		$(".C, .O, N, .R, .U, .I, .S, .A, .B, .D, .E, .L, .T, .M").fadeIn(0).css("visibility", "hidden");
 	})
 
